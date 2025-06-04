@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Habilidades Blandas</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Habilidades Blandas Necesarias Para Mi Empresa</h1>
+    </header>
+
+    <main>
+      <section id="comunicacion">
+        <h2>Comunicación</h2>
+        <p>
+          La capacidad de transmitir información de manera clara y efectiva es
+          fundamental en cualquier entorno laboral.
+        </p>
+      </section>
+
+      <section id="trabajo-en-equipo">
+        <h2>Trabajo en Equipo</h2>
+        <p>Colaborar con otros, respetar ideas y trabajar hacia un objetivo común.
+        </p>
+      </section>
+
+      <section id="solucion-de-problemas">
+        <h2>Solución de Problemas</h2>
+        <p>
+          La habilidad para identificar y resolver problemas rápidamente es
+          esencial para mantener la eficiencia en la empresa.
+        </p>
+      </section>
+
+      <section id="adaptabilidad">
+        <h2>Adaptabilidad</h2>
+        <p>
+          Ser capaz de adaptarse a varios roles y cambios en el entorno de
+          trabajo es un activo valioso.
+        </p>
+      </section>
+
+      <section id="dafo">
+        <h2 id="dafo_title">Análisis DAFO</h2>
+
+        <div class="dafo-container">
+          <div class="dafo-box">
+            <h2 id="dafo_title">Debilidades</h2>
+            <div id="dafo_text">
+              <ul>
+                <li>Falta de conocimientos en astrofísica.</li>
+                <li>Limitación al resolver problemas graves.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="dafo-box">
+            <h2 id="dafo_title">Amenazas</h2>
+            <div id="dafo_text">
+                <ul>
+                  <li>Competencia en el desarrollo web.</li>
+                  <li>Avances en IA y Machine Learning.</li>
+                </ul>
+              </li>
+            </div>
+          </div>
+
+          <div class="dafo-box">
+            <h2 id="dafo_title">Fortalezas</h2>
+            <div id="dafo_text">
+              <ul>
+                <li>Conocimientos técnicos en desarrollo web.</li>
+                <li>Entendimiento de conceptos científicos.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="dafo-box">
+            <h2 id="dafo_title">Oportunidades</h2>
+            <div id="dafo_text">
+              <ul>
+                <li>Mejorar la obtención de datos astrofísicos.</li>
+                <li>Creación de plataformas educativas</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="horarios">
+        <h2>Horarios Semanales de Trabajadores</h2>
+      
+        <label for="seleccionarTrabajador">Seleccionar Trabajador:</label>
+        <select id="seleccionarTrabajador">
+        </select>
+      
+        <table id="tablaHorarios">
+          <thead>
+            <tr>
+              <th>Día</th>
+              <th>Lunes</th>
+              <th>Martes</th>
+              <th>Miércoles</th>
+              <th>Jueves</th>
+              <th>Viernes</th>
+              <th>Total Horas</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr id="entradaRow">
+              <td>Hora Entrada</td>
+              <td><input type="time" id="entradaLunes" /></td>
+              <td><input type="time" id="entradaMartes" /></td>
+              <td><input type="time" id="entradaMiercoles" /></td>
+              <td><input type="time" id="entradaJueves" /></td>
+              <td><input type="time" id="entradaViernes" /></td>
+              <td></td>
+            </tr>
+            <tr id="salidaRow">
+              <td>Hora Salida</td>
+              <td><input type="time" id="salidaLunes" /></td>
+              <td><input type="time" id="salidaMartes" /></td>
+              <td><input type="time" id="salidaMiercoles" /></td>
+              <td><input type="time" id="salidaJueves" /></td>
+              <td><input type="time" id="salidaViernes" /></td>
+              <td></td>
+            </tr>
+            <tr id="horasRow">
+              <td>Horas conmutadas</td>
+              <td id="horasLunes">0.0</td>
+              <td id="horasMartes">0.0</td>
+              <td id="horasMiercoles">0.0</td>
+              <td id="horasJueves">0.0</td>
+              <td id="horasViernes">0.0</td>
+              <td id="horaTotal">0.0</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; Habilidades Blandas en la Empresa: Efrén Pérez Marrero 1ºDAW</p>
+    </footer>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
+
